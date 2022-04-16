@@ -1,0 +1,16 @@
+
+    <h1>Connection</h1>
+    <form name="kapcsolat" action="index.php?page=connectsend" onsubmit="return ellenoriz();"  method="post">
+        <div>
+            <label><input type="text" id="nev" name="nev" size="20" maxlength="40">Name (min 5 character): </label>
+            <br/>
+            <label><input type="text" id="email" name="email" size="30" maxlength="40">E-mail (mandatory): </label>
+            <br/>
+            <label> <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea> Message (mandatory): </label>
+            <br/>
+            <input id="kuld" type="submit" value="Send">
+            <button onclick="ellenoriz();" type="button">Check</button>
+        </div>
+    </form>
+
+
