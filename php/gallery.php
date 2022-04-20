@@ -1,5 +1,5 @@
 <?php
-include("aside.html"); 
+
     // Alkalmazás logika:
     include('config.inc.php');
     

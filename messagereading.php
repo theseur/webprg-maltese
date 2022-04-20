@@ -1,5 +1,7 @@
 <?php
 include_once("connect.conf.php");
+
+
 try {
 $pdo = new PDO("mysql:host=$host;dbname=$database", $username, //adatbázis hozzáférés
 $password ,array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));

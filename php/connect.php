@@ -1,6 +1,6 @@
 
 <?php
-include("aside.html"); 
+
 	//szerver oldali ellenőrzés példa
 
 	if(!isset($_POST['nev']) || strlen($_POST['nev']) < 5)

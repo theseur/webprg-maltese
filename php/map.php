@@ -1,6 +1,6 @@
 
     <div id="wrapper">
-        <?php include("aside.html"); ?>
+        
         <div id="content">
             <h2>Data:</h2>
            
