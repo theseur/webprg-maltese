@@ -5,7 +5,7 @@ session_start();
 
 
 <?php
-include("aside.html"); 
+
 
     if(isset($_POST['felhasznalo']) && isset($_POST['jelszo'])) {
         try {

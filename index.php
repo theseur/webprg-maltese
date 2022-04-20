@@ -16,7 +16,7 @@ session_start();
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-    
+ <?php include("aside.html"); ?>   
 <div class="container">
 
 
@@ -25,7 +25,7 @@ include_once("connect.php");
 if(!isset($_GET["page"]))
 {
     echo 'Main page';
-     include("aside.html"); 
+     
 }
 else
 {
